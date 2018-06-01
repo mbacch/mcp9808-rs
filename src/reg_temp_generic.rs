@@ -1,8 +1,10 @@
 extern crate cast;
+extern crate std;
 
 #[allow(unused_imports)]
-use core::num::Float;
-use core::f32;
+//use core::num::Float;
+use self::std::f32;
+//use core::f32;
 //use cast::u16;
 //use cast::u8;
 use cast::i16;
